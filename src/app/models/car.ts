@@ -3,7 +3,7 @@ export interface Car{
     brandId:number;
     colorId:number;
     carName:string;
-    modellYear:number;
+    modelYear:number;
     dailyPrice:number;
     description:string;
 
