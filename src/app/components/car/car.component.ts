@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { Car } from 'src/app/models/car';
 import { CarDetail } from 'src/app/models/carDetail';
 
-import { CarResponseModel } from 'src/app/models/carResponseModel';
+
 import { CarService } from 'src/app/services/car.service';
 
 @Component({
