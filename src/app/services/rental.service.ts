@@ -12,7 +12,7 @@ export class RentalService {
   apiUrl = 'https://localhost:44373/api/rental/getrentaldetails';
   constructor(private httpClient: HttpClient) { }
 
-  getColors():Observable<ListResponseModel<Rental>> {
+  getRentals():Observable<ListResponseModel<Rental>> {
     return this.httpClient.get<ListResponseModel<Rental>>(this.apiUrl);
   }
 }
